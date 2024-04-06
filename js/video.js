@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
     var video = document.getElementById("player1");
 
     // Initialize the video element
-    video.autoplay = false;
+    // video.autoplay = false;
     video.loop = false;
 
     // Get references to the buttons
