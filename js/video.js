@@ -21,7 +21,7 @@ window.addEventListener("load", function () {
 
     // Update the volume information
     function updateVolumeInfo() {
-        document.getElementById("volume").textContent = (video.volume * 100).toFixed(2) + "%";
+        document.querySelector('#volume').innerHTML = `${video.volume * 100}%`;
     }
 
     // Play the video and update the volume information
